@@ -1,5 +1,6 @@
 from rest_framework import permissions
 
+
 class IsAuthorOrReadOnly(permissions.BasePermission):
     def has_permission(self, request, view):
         # Разрешаем только авторизованным пользователям делать POST, PUT,
