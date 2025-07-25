@@ -152,3 +152,4 @@ media/
 yatube_api/posts/static/
 
 API_for_yatube.postman_collection.json
+postman_collection/
