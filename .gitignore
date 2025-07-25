@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+.env
+*.postman_collection.json
 
 # Distribution / packaging
 .Python
@@ -148,3 +150,5 @@ dmypy.json
 # папки со статикой и медиа
 media/
 yatube_api/posts/static/
+
+API_for_yatube.postman_collection.json
